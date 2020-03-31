@@ -59,6 +59,7 @@ function HDWalletProvider(
       this.addresses.push(addr);
       this.wallets[addr] = wallet;
     }
+    console.log('addresses = ', this.addresses);
   }
 
   const tmp_accounts = this.addresses;
